@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Me - Aman Kumar</title>
+
+  <!-- ✅ Font Awesome -->
+  <script src="https://kit.fontawesome.com/1b55eebdb2.js" crossorigin="anonymous"></script>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #0077b6, #90e0ef, #00b4d8);
+      color: #333;
+    }
+    .contact-container {
+      max-width: 600px;
+      margin: 80px auto;
+      padding: 30px;
+      background: #fff;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+      border-radius: 15px;
+      text-align: center;
+      animation: fadeIn 1s ease-in-out;
+    }
+    h2 {
+      color: #0077b6;
+      margin-bottom: 25px;
+      font-size: 28px;
+    }
+    p {
+      font-size: 18px;
+      margin: 15px 0;
+    }
+    a {
+      color: #0077b6;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    /* Icon styling */
+    .icon {
+      margin-right: 10px;
+      font-size: 22px;
+      vertical-align: middle;
+    }
+    .fa-github { color: #000; }
+    .fa-square-linkedin { color: #0a66c2; }
+    .fa-envelope { color: #d93025; }
+    .fa-address-card { color: #2e7d32; }
+    /* Back button */
+    .back-btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 12px 25px;
+      background: #0077b6;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: 0.3s;
+      font-size: 16px;
+    }
+    .back-btn:hover {
+      background: #023e8a;
+    }
+    /* Smooth fade-in animation */
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+  </style>
+</head>
+<body>
+
+  <div class="contact-container">
+    <h2>Contact Me</h2>
+
+    <p><i class="fa-brands fa-github icon"></i>
+      GitHub: <a href="https://github.com/amandubey923" target="_blank">github.com/amandubey923</a>
+    </p>
+
+    <p><i class="fa-brands fa-linkedin"></i>
+      LinkedIn: <a href="https://www.linkedin.com/in/aman-kr-dubey/" target="_blank">linkedin.com/in/aman-kr-dubey</a>
+    </p>
+
+    <p><i class="fa-solid fa-envelope icon"></i>
+      Email: <a href="mailto:cec234088.it.cec@cgc.edu.in">cec234088.it.cec@cgc.edu.in</a>
+    </p>
+
+    <p><i class="fa-solid fa-address-card icon"></i>
+      Phone: <a href="tel:+918969230625">+91 8969230625</a>
+    </p>
+
+    <!-- Back Button -->
+    <a href="index.html" class="back-btn">⬅ Back to Previous Page</a>
+  </div>
+
+</body>
+</html>
